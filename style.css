@@ -1,0 +1,103 @@
+
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menuCard{
+    background-color: #eaeae86b;
+    width: 600px;
+    height: 98vh;
+    padding-bottom: 5px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  }
+  .bg-image {
+    
+    width: 10%;
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .bg-image .ice1{
+    position: absolute;
+    top: 10%;
+    left: 36%;
+    border: 5px solid #5f3e13f3;
+    border-radius: 50%;
+    background-color: #e8c0aa;
+  }
+  .bg-image .ice2{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    border: 5px solid #5f3e13f3;
+    border-radius: 50%;
+    background-color: #e8c0aa;
+    z-index: 2;
+  }
+  .bg-image .ice3{
+    position: absolute;
+    top: 10%;
+    left: 54%;
+    border: 5px solid #5f3e13f3;
+    border-radius: 50%;
+    background-color: #e8c0aa;
+    
+  }
+  .menu{
+    margin-top: -10px;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+  }
+  .shop{
+    margin-top: 35px;
+    text-align: center;
+  }
+  .shop p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .space{
+    padding-top: 12px;
+    width: 200px;
+  }
+  .line{
+    width: 400px;
+  }
+  .menu2 .dish{
+    padding-bottom: 10px;
+  }
+  .menu2 table{
+    margin-top: 11px;
+  }
+  footer{
+    margin-top: -15px;
+    width: 600px;
+    background-color: #411900dd;
+    height: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  td{
+    font-size: 15px;
+    color: rgb(98, 97, 97);
+  }
+  .brown{
+    color: #803405;
+  }
+  th{
+    font-size: 14px;
+  }
+  .space1{
+    width: 200px;
+  }
